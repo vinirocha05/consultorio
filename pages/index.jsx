@@ -1,6 +1,8 @@
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 
+import Image from "next/image"
+import Link from "next/link"
 
 import Aos from "aos"
 import 'aos/dist/aos.css';
@@ -14,7 +16,7 @@ export default function Home() {
   }, [])
   return (
     <>
-      <Header />
+      <Header className='z-100' />
       <main className="overflow-hidden">
         <div className="bg-[url('/assets/img/mobile-photo.jpg')] h-68vh md:bg-[url('/assets/img/main-bg.jpg')] bg-no-repeat md:h-screen md:bg-cover">
         </div>
@@ -23,11 +25,11 @@ export default function Home() {
             <label>Nome</label>
             <input type="text" className="mb-3 border-2 border-gray-100 shadow-sm" />
             <label>Sobrenome</label>
-            <input type="text" className="mb-3 border-2 border-gray-100 shadow-sm"  />
+            <input type="text" className="mb-3 border-2 border-gray-100 shadow-sm" />
             <label>Telefone</label>
-            <input type="number" className="mb-3 border-2 border-gray-100 shadow-sm"  />
+            <input type="number" className="mb-3 border-2 border-gray-100 shadow-sm" />
             <label className="mb-2"  >Qual especialidade</label>
-            <select id="combo-box" className="mb-3 border-2 border-gray-100 shadow-sm"  name="time">
+            <select id="combo-box" className="mb-3 border-2 border-gray-100 shadow-sm" name="time">
               <option value=""></option>
               <option value="ac">Odontologia geral</option>
               <option value="ac">Branqueamento</option>
