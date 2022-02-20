@@ -11,7 +11,7 @@ export default function Header(props) {
     return (
         <header className="bg-gradient-to-r from-blue-500 to-blue-700 drop-shadow-lg fixed w-screen  z-10">
             <div className="flex h-24 justify-between items-center px-4 md:max-w-6xl mx-auto my-auto" >
-                <div><Link href="/" passHref><Image src='/assets/img/dentistry.png' alt="img" width='60' height='60' /></Link></div>
+                <div><Link href="/" passHref><Image src='/assets/img/dentistry.webp' alt="img" width='60' height='60' /></Link></div>
                 <div className="flex flex-1 text-white justify-end md:hidden text-xl" >
                     <FaBars onClick={handleClick} />
                 </div>
@@ -26,7 +26,7 @@ export default function Header(props) {
                 </div>
             </div>
             <div className={`h-screen text-blue-100 z-10 w-64 absolute top-0 md:hidden bg-blue-700 transform transition duration-500 ease-in-out ${click? '-translate-x-full':''}`}>
-                <div className="flex justify-center items-center py-6 "><Link href="/" passHref><Image src='/assets/img/dentistry.png' alt="img" width='60' height='60' /></Link>
+                <div className="flex justify-center items-center py-6 "><Link href="/" passHref><Image src='/assets/img/dentistry.webp' alt="img" width='60' height='60' /></Link>
                     <span className="ml-2">Clínicas sempre sorrindo</span></div>
                 <nav className="flex-1">
                     <ul className="text-white text-xl mt-5">

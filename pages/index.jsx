@@ -16,9 +16,9 @@ export default function Home() {
   }, [])
   return (
     <>
-      <Header className='z-100' />
+      <Header />
       <main className="overflow-hidden">
-        <div className="bg-[url('/assets/img/mobile-photo.jpg')] h-68vh md:bg-[url('/assets/img/main-bg.jpg')] bg-no-repeat md:h-screen md:bg-cover">
+        <div className="bg-[url('/assets/img/mobile-photo.webp')] h-68vh md:bg-[url('/assets/img/main-bg.webp')] bg-no-repeat md:h-screen md:bg-cover">
         </div>
         <div className="h-2/3 w-1/3 p-8 rounded-md shadow-md border-2 border-blue-700 bg-blue-50 absolute top-40 left-20 hidden md:block"><h2 className="mb-3 text-lg font-bold" >Agenda uma consulta</h2>
           <form className="flex flex-col" action="">
@@ -41,7 +41,7 @@ export default function Home() {
 
         <div className="bg-blue-50 h-screen w-full grid grid-cols-1 md:grid-cols-2 md:px-10 md:py-10">
           <div data-aos='fade-right' className="w-full h-full flex justify-center items-center md:block">
-            <img src='/assets/img/dor_de_dente.jpg' alt='' className="w-3/4 h-2/3" />
+            <img src='/assets/img/dor_de_dente.webp' alt='' className="w-3/4 h-2/3" />
           </div>
           <div data-aos='fade-left' className="w-3/4 mx-auto h-2/3 ">
             <h2 className="text-3xl font-heading font-bold mb-2 md:mb-2">Teste</h2>
@@ -51,7 +51,7 @@ export default function Home() {
 
         <div className="bg-blue-50 h-screen w-full grid grid-cols-1 md:grid-cols-2 md:px-10 md:py-10">
           <div data-aos='fade-left' className="w-full h-full flex justify-center items-center md:block md:order-2">
-            <img src='/assets/img/clareamento.jpg' alt='' className="w-3/4 h-2/3" />
+            <img src='/assets/img/clareamento.webp' alt='' className="w-3/4 h-2/3" />
           </div>
           <div data-aos='fade-right' className="w-3/4 mx-auto ">
             <h2 className="text-3xl font-heading font-bold mb-2 md:mb-2 md:order-1">Teste</h2>
@@ -61,7 +61,7 @@ export default function Home() {
 
         <div className="bg-blue-50 h-screen w-full grid grid-cols-1 md:grid-cols-2 md:px-10 md:py-10">
           <div data-aos='fade-right' className="w-full h-full flex justify-center items-center md:block">
-            <img src='/assets/img/aparelho.jpg' alt='' className="w-3/4 h-2/3" />
+            <img src='/assets/img/aparelho.webp' alt='' className="w-3/4 h-2/3" />
           </div>
           <div data-aos='fade-left' className="w-3/4 mx-auto ">
             <h2 className="text-3xl font-heading font-bold mb-2 md:mb-2">Teste</h2>
